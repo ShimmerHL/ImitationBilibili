@@ -1,0 +1,28 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+#Index_Box .Index_top {
+  border-bottom: 1rpx solid #efbcd5b3;
+}
+#Index_Box .Index_top .Popular_Cartoon view {
+  display: inline-block;
+  width: 50%;
+  height: 70rpx;
+  text-align: center;
+  font-size: 35rpx;
+}
+#Index_Box .Index_top .Popular_Cartoon view .Index_top_text {
+  display: inline-block;
+  width: 70rpx;
+  height: 70rpx;
+}
+#Index_Box .Popular_Cartoon_ChangeStyle {
+  color: red;
+  border-bottom: 1rpx solid red;
+}
+#Index_Box .scroll-view_H {
+  white-space: nowrap;
+  width: 100%;
+  animation: 1s linear;
+}

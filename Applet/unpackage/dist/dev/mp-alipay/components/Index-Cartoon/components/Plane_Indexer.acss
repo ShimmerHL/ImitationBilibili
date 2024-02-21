@@ -1,0 +1,50 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+.Plane_Indexer_top {
+  width: 100%;
+  height: 75rpx;
+  margin-top: 30rpx;
+  position: relative;
+}
+.Plane_Indexer_top view {
+  display: inline-block;
+  font-size: 30rpx;
+  vertical-align: middle;
+}
+.Plane_Indexer_top view text {
+  vertical-align: middle;
+}
+.Plane_Indexer_top view image {
+  width: 33rpx;
+  height: 33rpx;
+  vertical-align: middle;
+}
+.Plane_Indexer_top .Plane_Indexer_ViewLeft {
+  position: absolute;
+  left: 20rpx;
+}
+.Plane_Indexer_top .Plane_Indexer_ViewRight {
+  position: absolute;
+  right: 20rpx;
+  color: #cfaaaa;
+}
+.Plane_Indexer_Bottom {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 200rpx;
+  padding: 0 20rpx;
+  border-bottom: 1rpx solid #efbcd5b3;
+}
+.Plane_Indexer_Bottom view {
+  width: 220rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 27rpx;
+  background-color: #f7f4ea;
+  border-radius: 5rpx;
+}

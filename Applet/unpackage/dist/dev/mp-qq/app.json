@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Partition/Partition",
+    "pages/MyHomepage/MyHomepage"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "bilibili",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/icon/navigation/shouyeW.png",
+        "selectedIconPath": "./static/icon/navigation/shouyeX.png"
+      },
+      {
+        "pagePath": "pages/Partition/Partition",
+        "text": "分区",
+        "iconPath": "./static/icon/navigation/fenquW.png",
+        "selectedIconPath": "./static/icon/navigation/fenquX.png"
+      },
+      {
+        "pagePath": "pages/MyHomepage/MyHomepage",
+        "text": "我的",
+        "iconPath": "./static/icon/navigation/wodeW.png",
+        "selectedIconPath": "./static/icon/navigation/wodeX.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "fix-2648": "/fix-2648"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Partition/Partition",
+    "pages/MyHomepage/MyHomepage"
+  ],
+  "window": {
+    "defaultTitle": "bilibili",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "./static/icon/navigation/shouyeW.png",
+        "activeIcon": "./static/icon/navigation/shouyeX.png"
+      },
+      {
+        "pagePath": "pages/Partition/Partition",
+        "name": "分区",
+        "icon": "./static/icon/navigation/fenquW.png",
+        "activeIcon": "./static/icon/navigation/fenquX.png"
+      },
+      {
+        "pagePath": "pages/MyHomepage/MyHomepage",
+        "name": "我的",
+        "icon": "./static/icon/navigation/wodeW.png",
+        "activeIcon": "./static/icon/navigation/wodeX.png"
+      }
+    ]
+  },
+  "subPackageBuildType": "shared",
+  "usingComponents": {}
+}

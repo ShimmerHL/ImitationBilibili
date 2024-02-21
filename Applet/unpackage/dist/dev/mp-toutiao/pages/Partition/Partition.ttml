@@ -1,0 +1,1 @@
+<view id="PartitionHome"><view tt:for="{{a}}" tt:for-item="value" tt:key="b"><image src="{{value.a}}" mode=" "></image><text>{{value.b}}</text></view></view>

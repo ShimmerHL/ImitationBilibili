@@ -1,0 +1,1 @@
+<view id="PartitionHome"><view wx:for="{{a}}" wx:for-item="value" wx:key="b"><image src="{{value.a}}" mode=" "></image><text>{{value.b}}</text></view></view>

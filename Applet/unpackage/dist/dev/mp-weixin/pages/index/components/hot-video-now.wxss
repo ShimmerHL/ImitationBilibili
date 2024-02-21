@@ -1,0 +1,109 @@
+/* 水平间距 */
+/* 水平间距 */
+scroll-view ::-webkit-scrollbar {
+  display: none;
+}
+.scroll-view-item_H {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 36rpx;
+}
+.scroll-view-item {
+  box-sizing: border-box;
+  height: 250rpx;
+  padding: 30rpx;
+  text-align: left;
+  font-size: 36rpx;
+}
+.demo1_box {
+  height: 1185rpx;
+}
+.demo1_box .PopularVideos {
+  box-sizing: border-box;
+  border-top: 1rpx solid #f7e2ec;
+}
+.demo1_box .PopularVideos image {
+  display: inline-block;
+  width: 300rpx;
+  height: 200rpx;
+  vertical-align: middle;
+  border-radius: 15rpx;
+}
+.demo1_box .PopularVideos .Information {
+  display: inline-block;
+  width: 380rpx;
+  margin-left: 15rpx;
+  vertical-align: middle;
+}
+.demo1_box .PopularVideos .Information .Information_Title {
+  height: 80rpx;
+}
+.demo1_box .PopularVideos .Information .Information_Title text {
+  display: -webkit-box;
+  height: 80rpx;
+  font-size: 27rpx;
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-align: left;
+}
+.demo1_box .PopularVideos .Information .Information_Title text {
+  word-break: break-all;
+  white-space: pre-line;
+}
+.demo1_box .PopularVideos .Information .Information_Label {
+  width: 100%;
+  height: 30rpx;
+  vertical-align: left;
+}
+.demo1_box .PopularVideos .Information .Information_Label text {
+  height: 30rpx;
+  display: inline-block;
+  padding: 0 8rpx;
+  font-size: 20rpx;
+  color: #dcdf21;
+  border: 1rpx solid #dcdf21;
+}
+.demo1_box .PopularVideos .Information .Information_UPName {
+  margin-top: 7rpx;
+}
+.demo1_box .PopularVideos .Information .Information_UPName image {
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: middle;
+}
+.demo1_box .PopularVideos .Information .Information_UPName text {
+  margin-left: 3rpx;
+  font-size: 20rpx;
+  color: pink;
+  vertical-align: middle;
+}
+.demo1_box .PopularVideos .Information .Information_Other {
+  position: relative;
+  top: -18rpx;
+  width: 100%;
+  height: 30rpx;
+}
+.demo1_box .PopularVideos .Information .Information_Other view {
+  display: inline-block;
+  width: 200rpx;
+  font-size: 20rpx;
+}
+.demo1_box .PopularVideos .Information .Information_Other view image {
+  display: inline-block;
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 5rpx;
+  vertical-align: middle;
+}
+.demo1_box .PopularVideos .Information .Information_Other view text {
+  display: inline-block;
+  vertical-align: middle;
+  color: pink;
+}
+.demo2_box {
+  height: 1185rpx;
+}

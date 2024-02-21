@@ -1,0 +1,72 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+#MyHomePage {
+  width: 100%;
+  height: 100%;
+}
+#MyHomePage .login {
+  width: 100%;
+  height: 280rpx;
+  position: relative;
+  border-bottom: 1rpx solid #efbcd5b3;
+}
+#MyHomePage .login view {
+  width: 130rpx;
+  height: 130rpx;
+  background: #cfcfcf;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+#MyHomePage .login view image {
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+#MyHomePage .login button {
+  border: 0;
+  width: 150rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background: #ff557f;
+  color: #fff;
+  font-size: 25rpx;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+#MyHomePage .History {
+  position: relative;
+  width: 100%;
+}
+#MyHomePage .History .History_Record {
+  position: absolute;
+}
+#MyHomePage .History .History_more {
+  position: absolute;
+  right: 30rpx;
+}
+#MyHomePage .History .History_more text {
+  vertical-align: middle;
+}
+#MyHomePage .History .History_more image {
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: middle;
+}
+#MyHomePage .Choosable {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding-left: 20rpx;
+  border-bottom: 1rpx solid #efbcd5b3;
+}

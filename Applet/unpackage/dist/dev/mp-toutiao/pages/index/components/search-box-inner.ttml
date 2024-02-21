@@ -1,0 +1,1 @@
+<uni-search-bar tt:if="{{b}}" class="uni-mt-10 data-v-e6c4f512" bindconfirm="{{a}}" u-i="e6c4f512-0" bind:__l="__l" u-p="{{b}}"/>

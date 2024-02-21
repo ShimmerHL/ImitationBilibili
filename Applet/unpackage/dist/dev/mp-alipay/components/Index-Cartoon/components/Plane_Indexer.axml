@@ -1,0 +1,1 @@
+<view class="Plane_Indexer_top"><view class="Plane_Indexer_ViewLeft">索引</view><view class="Plane_Indexer_ViewRight"><text>查看更多</text><image src="/static/icon/wukuangyoujiantou.png"/></view></view><view class="Plane_Indexer_Bottom"><view>搞笑</view><view>热血</view><view>奇幻</view><view>励志</view><view>萌系</view><view>运动</view></view>

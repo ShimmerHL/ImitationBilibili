@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "哔哩哔哩",
+  "usingComponents": {
+    "search-box-inner": "./components/search-box-inner",
+    "hot-video-now": "./components/hot-video-now"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "date-filter": "./components/Date_Filter",
+    "plane-indexer": "./components/Plane_Indexer",
+    "drama-recommendation": "./components/Drama_recommendation",
+    "china-creation-recommendation": "./components/China_creation_recommendation"
+  }
+}

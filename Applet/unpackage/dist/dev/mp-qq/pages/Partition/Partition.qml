@@ -1,0 +1,1 @@
+<view id="PartitionHome"><view qq:for="{{a}}" qq:for-item="value" qq:key="b"><image src="{{value.a}}" mode=" "></image><text>{{value.b}}</text></view></view>

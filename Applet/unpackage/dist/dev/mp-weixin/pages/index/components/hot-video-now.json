@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "index-cartoon": "../../../components/Index-Cartoon/Index-Cartoon"
+  }
+}

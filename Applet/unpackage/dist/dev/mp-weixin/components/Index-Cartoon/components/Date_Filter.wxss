@@ -1,0 +1,64 @@
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+.Date_Filter_Top {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 25rpx;
+}
+.Date_Filter_Top .Date_Filter_Top_Box {
+  box-sizing: border-box;
+  width: 85rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin: 10rpx 10rpx;
+}
+.Date_Filter_Top .WeekStyle {
+  background-color: #ff8585;
+  color: #fff;
+  border-radius: 30rpx;
+}
+.Date_Filter_Bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 0 30rpx 30rpx;
+  border-bottom: 1rpx solid #efbcd5b3;
+}
+.Date_Filter_Bottom .FanDramaBox {
+  width: 150rpx;
+  margin: 20rpx 30rpx 0 0;
+  /* #ifdef MP-WEIXIN*/
+}
+.Date_Filter_Bottom .FanDramaBox image {
+  width: 150rpx;
+  height: 150rpx;
+}
+.Date_Filter_Bottom .FanDramaBox text {
+  display: block;
+  text-align: left;
+}
+.Date_Filter_Bottom .FanDramaBox .Date_Filter_Bottom_text1 {
+  display: -webkit-box;
+  width: 150rpx;
+  font-size: 30rpx;
+  overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.Date_Filter_Bottom .FanDramaBox .Date_Filter_Bottom_text1 {
+  word-break: break-all;
+  white-space: pre-line;
+}
+.Date_Filter_Bottom .FanDramaBox .Date_Filter_Bottom_text2 {
+  margin-top: 5rpx;
+  font-size: 20rpx;
+  color: #ff8585;
+}
